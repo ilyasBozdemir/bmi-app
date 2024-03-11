@@ -1,4 +1,5 @@
 import React from 'react'
+import DietList from '../components/DietList'
 
 function DietPlanPage() {
   return (
