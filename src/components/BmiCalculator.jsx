@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
 
 const BMICalculator = () => {
   const [height, setHeight] = useState('');
   const [weight, setWeight] = useState('');
   const [bmi, setBMI] = useState(null);
   const [dietPlan, setDietPlan] = useState('');
-  const history = useHistory();
 
   useEffect(() => {
     if (bmi) {
@@ -29,7 +27,7 @@ const BMICalculator = () => {
   };
 
   const goBack = () => {
-    history.push('/');
+
   };
 
   return (
