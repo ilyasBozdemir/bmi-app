@@ -2,7 +2,9 @@ import React from 'react'
 
 function DietPlanPage() {
   return (
-    <div>DietPlanPage</div>
+    <div>
+      <DietList/>
+    </div>
   )
 }
 

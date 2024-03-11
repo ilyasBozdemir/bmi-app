@@ -1,12 +1,11 @@
 import React from 'react'
+import BMICalculator from '../components/BmiCalculator'
 
 function BMICalculatorPage() {
   return (
-    <div>
-      
-asdasd
-
-    </div>
+    <>
+      <BMICalculator />
+    </>
   )
 }
 

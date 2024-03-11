@@ -11,7 +11,7 @@ const App = () => {
       <BrowserRouter>
         <Layout>
           <Routes>
-            <Route exact path="/" component={BMICalculatorPage} />
+            <Route path="/" component={BMICalculatorPage} />
             <Route path="/diet" component={DietPlanPage} />
           </Routes>
         </Layout>
